@@ -21,7 +21,8 @@ public class TestTextBox {
 
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id='name']")).isDisplayed());
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id='email']")).isDisplayed());
-        
+        Assert.assertTrue(driver.findElement(By.xpath("//p[@id='currentAddress']")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//p[@id='permanentAddress']")).isDisplayed());
 
 
 
